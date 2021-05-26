@@ -9,3 +9,11 @@ random_choice = random.randint(0, num_items -1)
 # Pick out random person from list of names using the random numnbers.
 person_who_will_win = names[random_choice]
 print(person_who_will_win + " is going to win the game today!")
+
+############ Easier Way ###############
+
+import random
+names_strings = input("Give me everybody's names, separated by a comma: \n")
+names = names_strings.split(", ") # This is to Split the list of names.
+person_who_will_win = random.choice(names)
+print(person_who_will_win + " is going to win the game today!")
