@@ -11,3 +11,8 @@ Hint
 # Solution:
 
 print(len(input("Your Name: ")))
+
+"""
+#Write your code below this line 👇
+print(len(input("Please enter your name: ")))
+""""
