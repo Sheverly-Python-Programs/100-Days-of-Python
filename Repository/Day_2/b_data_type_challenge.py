@@ -44,3 +44,15 @@ two_digit_number = input("Type a two digit number: ")
 first_number = int(two_digit_number[0])
 second_number = int(two_digit_number[1])
 print((first_number) + (second_number))
+
+
+################ UPDATED ##################
+
+two_digit_number = input("Type a two digit number: ")
+# print(type(two_digit_number))
+number_1 = int(two_digit_number)
+# print(type(number_1))
+first_number = int(two_digit_number[0])
+second_number = int(two_digit_number[1])
+final_sum = first_number + second_number
+print(final_sum)
